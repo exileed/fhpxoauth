@@ -4,9 +4,9 @@
  *
  * @license MIT
  */
-namespace Abraham\TwitterOAuth;
+namespace Abraham\FHpxOAuth;
 
-use Abraham\TwitterOAuth\Util\JsonDecoder;
+use Abraham\FHpxOAuth\Util\JsonDecoder;
 
 /**
  * TwitterOAuth class for interacting with the Twitter API.
@@ -15,9 +15,9 @@ use Abraham\TwitterOAuth\Util\JsonDecoder;
  */
 class TwitterOAuth extends Config
 {
-    const API_VERSION = '1.1';
-    const API_HOST = 'https://api.twitter.com';
-    const UPLOAD_HOST = 'https://upload.twitter.com';
+	const API_VERSION = 'v1';
+	const API_HOST = 'https://api.500px.com';
+    const UPLOAD_HOST = 'https://api.500px.com';
     const UPLOAD_CHUNK = 40960; // 1024 * 40
 
     /** @var Response details about the result of the last request */

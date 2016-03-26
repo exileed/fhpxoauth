@@ -2,7 +2,7 @@
 /**
  * WARNING: Running these tests will post and delete through the actual Twitter account.
  */
-namespace Abraham\TwitterOAuth\Test;
+namespace Abraham\FHpxOAuth\Test;
 
 use Abraham\TwitterOAuth\TwitterOAuth;
 

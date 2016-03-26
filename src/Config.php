@@ -1,6 +1,6 @@
 <?php
 
-namespace Abraham\TwitterOAuth;
+namespace Abraham\FHpxOAuth;
 
 /**
  * Handle setting and storing config for TwitterOAuth.

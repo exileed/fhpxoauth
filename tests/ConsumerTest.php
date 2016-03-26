@@ -1,6 +1,6 @@
 <?php
 
-namespace Abraham\TwitterOAuth\Tests;
+namespace Abraham\FHpxOAuth\Tests;
 
 use Abraham\TwitterOAuth\Consumer;
 
